@@ -8,6 +8,7 @@ import { Meta, Title } from '@angular/platform-browser';
   <a routerLink="/">Home</a>
   <a routerLink="/lazy">Lazy</a>
   <a routerLink="/lazy/nested">Lazy_Nested</a>
+  <a routerLink="/alex">Alex</a>
   <router-outlet></router-outlet>
   `,
   styles: []

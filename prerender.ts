@@ -1,3 +1,4 @@
+import './src/meteor_packages/meteor-client-ssr.js';
 // Load zone.js for the server.
 import 'zone.js/dist/zone-node';
 import 'reflect-metadata';

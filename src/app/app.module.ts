@@ -15,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full'},
       { path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule'},
-      { path: 'lazy/nested', loadChildren: './lazy/lazy.module#LazyModule'}
+      { path: 'lazy/nested', loadChildren: './lazy/lazy.module#LazyModule'},
+      { path: 'async', loadChildren: './alex/alex.module#AlexModule'}
     ])
   ],
   providers: [],
